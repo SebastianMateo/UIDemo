@@ -25,7 +25,7 @@ private:
 	UDataTable* FriendListDataTable;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
-	float SimulateUpdateTime = 10.0f;
+	float SimulateUpdateTime = 5.0f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	int UpdateChance = 10;
